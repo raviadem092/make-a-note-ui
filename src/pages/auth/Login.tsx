@@ -79,7 +79,7 @@ const Login = () => {
                     </span>
                 </button>
 
-                {/* <button
+                <button
                     className="oauth-btn github-btn"
                     onClick={handleGithubLogin}
                 >
@@ -87,7 +87,7 @@ const Login = () => {
                     <span>
                         Continue with GitHub
                     </span>
-                </button> */}
+                </button>
 
                 <div className="login-footer">
                     Secure authentication powered by Firebase
