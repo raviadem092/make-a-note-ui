@@ -1,0 +1,172 @@
+.login-page {
+    position: relative;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0f172a,
+            #111827,
+            #1e293b
+        );
+
+    padding: 24px;
+}
+
+/* Background Orbs */
+
+.bg-orb {
+    position: absolute;
+
+    border-radius: 50%;
+
+    filter: blur(90px);
+
+    opacity: 0.35;
+}
+
+.orb-1 {
+    width: 320px;
+    height: 320px;
+
+    background: #6366f1;
+
+    top: 10%;
+    left: 10%;
+}
+
+.orb-2 {
+    width: 280px;
+    height: 280px;
+
+    background: #06b6d4;
+
+    bottom: 10%;
+    right: 10%;
+}
+
+/* Card */
+
+.login-card {
+    position: relative;
+
+    width: 100%;
+    max-width: 460px;
+
+    padding: 42px;
+
+    border-radius: 28px;
+
+    background:
+        rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(20px);
+
+    border:
+        1px solid rgba(255,255,255,0.08);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,0.25);
+
+    text-align: center;
+
+    z-index: 2;
+}
+
+.login-logo {
+    width: 72px;
+    height: 72px;
+
+    margin: 0 auto 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+
+    font-size: 32px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #6366f1,
+            #8b5cf6
+        );
+}
+
+.login-card h1 {
+    margin: 0;
+
+    color: white;
+
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.login-card p {
+    margin: 14px 0 32px;
+
+    color: rgba(255,255,255,0.75);
+
+    line-height: 1.6;
+}
+
+/* Buttons */
+
+.oauth-btn {
+    width: 100%;
+
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    margin-bottom: 14px;
+
+    border-radius: 14px;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: all 0.2s ease;
+}
+
+.oauth-btn:hover {
+    transform: translateY(-2px);
+}
+
+.oauth-btn svg {
+    font-size: 22px;
+}
+
+.google-btn {
+    background: white;
+    color: #111827;
+}
+
+.github-btn {
+    background: #18181b;
+    color: white;
+}
+
+.login-footer {
+    margin-top: 24px;
+
+    font-size: 13px;
+
+    color: rgba(255,255,255,0.55);
+}

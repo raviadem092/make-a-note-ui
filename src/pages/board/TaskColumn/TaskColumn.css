@@ -1,0 +1,70 @@
+.task-column {
+    background: var(--surface-secondary);
+
+    border-radius: var(--radius-lg);
+
+    padding: 16px;
+
+    min-height: 500px;
+}
+
+.column-header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.column-header h3 {
+    color: var(--text-primary);
+}
+
+.column-header span {
+    width: 28px;
+    height: 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--surface);
+
+    color: var(--text-secondary);
+}
+
+.column-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.column-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.column-add-btn {
+    border: none;
+
+    background: var(--primary);
+
+    color: white;
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.column-add-btn:hover {
+    opacity: 0.9;
+}

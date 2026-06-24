@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="taskflowGradient" x1="32" y1="32" x2="224" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect
+    x="24"
+    y="24"
+    width="208"
+    height="208"
+    rx="48"
+    fill="url(#taskflowGradient)"
+  />
+
+  <path
+    d="M78 88H178"
+    stroke="white"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M78 128H148"
+    stroke="white"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M78 168H122"
+    stroke="white"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M154 164L172 182L204 142"
+    stroke="white"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

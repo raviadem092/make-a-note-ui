@@ -1,0 +1,20 @@
+[data-theme="dark"] {
+
+  --bg: #0F172A;
+
+  --surface: #111827;
+
+  --surface-secondary: #1E293B;
+
+  --text-primary: #F8FAFC;
+
+  --text-secondary: #CBD5E1;
+
+  --text-muted: #94A3B8;
+
+  --primary: #3B82F6;
+
+  --primary-hover: #60A5FA;
+
+  --border: #334155;
+}

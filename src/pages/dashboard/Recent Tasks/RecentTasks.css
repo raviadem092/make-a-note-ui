@@ -1,0 +1,33 @@
+.task-row {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 14px 0;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.task-row:last-child {
+    border-bottom: none;
+}
+
+.task-row span:first-child {
+    color: var(--text-primary);
+}
+
+.task-status {
+    padding: 6px 12px;
+
+    border-radius: 999px;
+
+    background: var(--surface-secondary);
+
+    color: var(--primary);
+
+    font-size: 12px;
+
+    font-weight: 600;
+}

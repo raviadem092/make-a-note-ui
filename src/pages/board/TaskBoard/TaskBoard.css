@@ -1,0 +1,41 @@
+.board-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 24px;
+}
+.board-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.danger-btn {
+    border: none;
+
+    background: var(--danger);
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: var(--radius-md);
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.danger-btn:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 992px) {
+
+    .board-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,16 @@
+.confirm-dialog {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.confirm-message {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.confirm-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}

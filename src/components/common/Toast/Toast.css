@@ -1,0 +1,27 @@
+.toast {
+    position: fixed;
+
+    top: 24px;
+    right: 24px;
+
+    min-width: 260px;
+
+    padding: 14px 18px;
+
+    border-radius: var(--radius-md);
+
+    color: white;
+
+    z-index: 9999;
+
+    box-shadow:
+        0 8px 24px rgba(0,0,0,0.15);
+}
+
+.toast-success {
+    background: var(--success);
+}
+
+.toast-error {
+    background: var(--danger);
+}
